@@ -16,15 +16,18 @@ body{
 .mainnav{
     background-color: #021859;;
     padding: 20px;
-    color: #F29F05; 
+    width: 100%;
+    color: #F29F05;
+    position: fixed; 
 }
 
 /*lewa strona*/
 .left{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     padding: 5px;
+    margin-top: 100px;  
 }
 
 .add-form{
@@ -55,20 +58,31 @@ body{
 
 .add-form input{
     margin: 5px;
+    margin-right: 0px;      
     padding: 10px;
-    width: 100%;
     border: none;
     border-radius: 10px;
     background-color: #b5b5b5;
     outline: none;
 }
 
+.add-form select{
+    margin: 5px;
+    margin-right: 0px;      
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b5b5b5;
+    outline: none;      
+}
+
 /*prawa strona*/
 .right{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     height: 100vh;
+    margin-top: 80px;
 }
 
 .cv-all{
@@ -77,6 +91,8 @@ body{
     background-color: #fff;
     margin: auto;
     box-shadow: 10px 10px 5px gray;
+    position: fixed;
+    left: 60%;
 }
 
 .nav{
@@ -116,3 +132,5 @@ p{
     margin-right: 5px;
     word-wrap: normal   ;
 }
+
+
