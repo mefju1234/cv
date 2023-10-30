@@ -78,3 +78,43 @@ city.addEventListener("keydown", function(ci){
         let reset = document.getElementById("city").value = "";
     }
 });
+
+let birthday = document.getElementById("birthday");
+let birthdaycv = document.getElementById("datauro")
+birthday.addEventListener("keydown", function(bir){
+    if (bir.code == "Enter"){ 
+        let birthdaytext = document.getElementById("birthday").value;
+        birthdaycv.innerHTML = birthdaytext;
+        let reset = document.getElementById("birthday").value = "";
+    }
+});
+
+let birthplace = document.getElementById("birthplace");
+let birthplacecv = document.getElementById("miejuro")
+birthplace.addEventListener("keydown", function(bp){
+    if (bp.code == "Enter"){ 
+        let birthplacetext = document.getElementById("birthplace").value;
+        birthplacecv.innerHTML = birthplacetext;
+        let reset = document.getElementById("birthplace").value = "";
+    }
+});
+
+let gender = document.getElementById("gender");
+let gendercv = document.getElementById("plec")
+gender.addEventListener("keydown", function(ge){
+    if (ge.code == "Enter"){ 
+        let gendertext = document.getElementById("gender").value;
+        gendercv.innerHTML = gendertext;
+        let reset = document.getElementById("gender").value = "";
+    }
+});
+
+let drivinglicense = document.getElementById("drivinglicense");
+let drivinglicensecv = document.getElementById("prawojazdy")
+drivinglicense.addEventListener("keydown", function(di){
+    if (di.code == "Enter"){ 
+        let drivinglicensetext = document.getElementById("drivinglicense").value;
+        drivinglicensecv.innerHTML = drivinglicensetext;
+        let reset = document.getElementById("drivinglicense").value = "";
+    }
+});
