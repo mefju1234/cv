@@ -19,20 +19,47 @@ body{
     width: 100%;
     color: #F29F05;
     position: fixed; 
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
 }
+
+.mainnav p{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: #fff;
+    cursor: alias;
+    font-size: 25px;
+}
+
 
 /*lewa strona*/
 .left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     padding: 5px;
     margin-top: 100px;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .add-form{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.headerinfo{
+    font-size: 15px;
+    margin: 5px 5px 0px 5px;
+    color: #535353;
+    font-weight: 500;
 }
 
 .add-form label{
@@ -80,7 +107,7 @@ body{
 .right{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     height: 100vh;
     margin-top: 80px;
 }
@@ -92,7 +119,7 @@ body{
     margin: auto;
     box-shadow: 10px 10px 5px gray;
     position: fixed;
-    left: 60%;
+    left: 50%;
 }
 
 .nav{
@@ -133,4 +160,107 @@ p{
     word-wrap: normal   ;
 }
 
+.allinfo{
+    display: flex;
+    flex-direction: row;
+}
+.personaldata{
+    
+    width: 30%;
+    margin-left:auto;
+    margin-top: 10px;
+    border-left: #000000 solid 1px;
+    padding: 0 0 0 5px;
+}
 
+.personaldata h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.personaldata label{
+    font-size: 15px;
+    color: #000000;
+}
+
+.personaldata p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #535353;
+}
+
+.education{
+    margin-right:auto;
+    margin-top: 10px;
+    padding: 0 0 0 10px;
+}
+
+.education h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.education p:nth-of-type(1){
+    color: #000;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(2){
+    color: #535353;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(3){
+    color: #535353;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(4){
+    color: #000000;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(5){
+    color: #535353;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(6){
+    color: #000000;
+    font-size: 13px;
+}
+
+.education p:nth-of-type(7){
+    color: #535353;
+    font-size: 13px;
+}
+
+#disp{
+    display: none;
+}
+
+#disp2{
+    display: none;
+}
+
+.left a{
+    margin: 0px 0px 5px 5px;    
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b5b5b5;
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    width: fit-content;
+    align-self: center;
+    font-weight: 700;
+}
+
+.left a:hover{
+    color: #F29F05;
+    background-color: #021859;
+    transition: 1000ms;
+    
+}
