@@ -68,6 +68,29 @@
         <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
         <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
       </svg>Dodaj wykształcenie</a>
+
+      <form class="add-form">
+        <label>Doświadczenie zawodowe</label>
+        <input type="text" id="position" maxlength="25" placeholder="Stanowisko...">
+        <input type="text" id="employer" maxlength="25" placeholder="Pracodawca...">
+        <input type="text" id="citywork" maxlength="150" placeholder="Miejscowość...">
+        <p class="headerinfo">Data rozpoczęcia:</p>
+        <input type="date" id="workstartdate">
+        <p class="headerinfo">Data zakończenia:</p>
+        <input type="date" id="workenddate">
+      </form>
+
+      <form class="add-form">
+        <label>Języki</label>
+        <input type="text" id="language" maxlength="25" placeholder="Język...">
+        <input type="text" id="description" placeholder="Opis poziomu języka...">
+      </form>
+
+      <form class="add-form">
+        <label>Umiejętności</label>
+        <input type="text" id="skill" maxlength="25" placeholder="Umiejętność...">
+        <input type="text" id="descriptionskill" placeholder="Opis umiejętności...">
+      </form>
 </div>
     <div class="right">
         <div class="cv-all">
@@ -105,12 +128,22 @@
                         <p id="dateend"></p>
                     </div>
                     <div class="education">
-                        <h3 id="disp2">Wykształcenie</h3>
                         <p id="poziom2"></p>
                         <p id="instytucja2"></p>
                         <p id="miejscowoscszkoly2"></p>
                         <p id="datestart2"></p>
                         <p id="dateend2"></p>
+                    </div>
+                    <div class="workexperience">
+                        <h3>Doświadczenie zawodowe</h3>
+                        <p id="stanowisko"></p>
+                        <p id="pracodawca"></p>
+                        <p id="miejscowoscpracy"></p>
+                        <p id="startpracy"></p>
+                        <p id="zakonczeniepracy"></p>
+                    </div> 
+                    <div id="skills">
+                        <h3>Umiejętności</h3>
                     </div>
                 </div>
                 <div class="personaldata">
@@ -123,8 +156,14 @@
                     <p id="plec"></p>
                     <label>Prawo jazdy</label>
                     <p id="prawojazdy"></p>
-                </div>
-        </div>
+                    <div id="jez">
+                    <h3>Języki</h3>
+                    </div>
+                   
+            </div>
+    </div>
+    <div class="footer">
+        <p class="footertext">Wyrażam zgodę na przetwarzanie moich danych osobowych w zakresie obecnych i przyszłych procesów rekrutacyjnych.</p>
     </div>
 </div>
 </body>
